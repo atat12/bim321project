@@ -1,20 +1,37 @@
 header nav ul li {
 display: inline;
 font-weight: bold;
-margin: 0.2rem;
-padding: 4px;
+margin: 0;
+padding-left: 2rem;
 font-style: normal;
+}
+
+nav ul{
+    padding: 0px;
+    float: right;
+}
+
+main{
+    clear: right;
 }
 
 a{
  color: black;
+ text-decoration: none;
 }
 
-a :hover{
+a:hover{
     color: gray;
    }
 
 footer{
     text-align: center;
     font-size: 0.6rem;
+}
+
+.container {
+    margin: auto;
+    min-width: 650px;
+    width: 80%;
+    max-width: 1000px;
 }
