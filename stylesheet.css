@@ -50,6 +50,7 @@ footer{
     width: 80%;
     max-width: 1000px;
     font-family: Helvetica, sans-serif;
+    color: black;
 }
 
 .logo{
@@ -76,7 +77,7 @@ p{
     margin: 0px;
 }
 
-.pink h1, h2, p{
+.pink h1, .pink h2, .pink p{
     color: white;
 }
 
@@ -90,6 +91,7 @@ p{
 .column {
     flex: 50%;
     align-self: center;
+    text-align: center;
   }
 
   img{
