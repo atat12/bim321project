@@ -110,3 +110,8 @@ p{
     height: auto;
     aspect-ratio: attr(width) / attr(height);
   }
+
+  .accent{
+      font-size: 2rem;
+      color: rgb(255, 113, 168);
+  }
