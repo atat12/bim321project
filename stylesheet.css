@@ -27,6 +27,7 @@ nav ul{
 
 .overlap{
     margin-top: -1rem;
+    z-index: -1;
 }
 
 a{
@@ -63,6 +64,7 @@ footer{
     font-weight: bold;
     display: inline-block;
     font-family: 'Krona One', sans-serif;
+    position: relative;
 }
 
 h2{
@@ -89,7 +91,6 @@ p{
     display: flex;
     margin-top: 1rem;
     background-color: rgb(253, 253, 253);
-    padding-block-end: 0px;
   }
   
  .yellow{
@@ -112,6 +113,12 @@ p{
   }
 
   .accent{
-      font-size: 2rem;
       color: rgb(255, 113, 168);
+  }
+
+  .right{
+    margin-top: -10rem;  
+    text-align: right;
+    margin-right: 2rem;
+    font-size: 1.2em;
   }
