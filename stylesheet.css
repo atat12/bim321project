@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
 header nav ul li {
 display: inline;
@@ -52,7 +53,7 @@ footer{
     min-width: 650px;
     width: 80%;
     max-width: 1000px;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Alata', sans-serif;
     color: black;
 }
 
@@ -88,12 +89,15 @@ p{
     display: flex;
     margin-top: 1rem;
     background-color: rgb(253, 253, 253);
+    padding-block-end: 0px;
   }
   
  .yellow{
     background: rgb(255,202,53);
     background: linear-gradient(130deg, rgba(255,202,53,1) 0%, rgba(255,209,135,1) 71%, rgba(253,255,183,1) 100%);    
-    }
+    padding-top: 4px;
+    padding-left: 4px;
+}
   
 .column {
     flex: 50%;
