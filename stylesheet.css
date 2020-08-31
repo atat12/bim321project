@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 header nav ul li {
 display: inline;
@@ -36,6 +36,7 @@ a:hover{
 
 .active{
     color: black;
+    font-weight: bold;
    }
 
 footer{
@@ -60,14 +61,15 @@ footer{
 }
 
 h2{
-    font-family: 'Mukta', sans-serif;
-    font-style: italic;
+    font-family: 'Satisfy', cursive;
+    font-size: 2rem;
     margin: 0px;
 }
 
 h1{
     font-family: 'Krona One', sans-serif;
     margin: 0px;
+    font-size: 3rem;
 }
 
 p{
@@ -88,4 +90,10 @@ p{
 .column {
     flex: 50%;
     align-self: center;
+  }
+
+  img{
+    width: 100%;
+    height: auto;
+    aspect-ratio: attr(width) / attr(height);
   }
