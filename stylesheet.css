@@ -131,9 +131,13 @@ p{
   }
   
   .herelink{
-      border: solid;
-      border-width: 1.5px;
+      border: 1.5px solid transparent;
       padding-left: 5px;
       padding-right: 5px;
       padding-bottom: 3px;
+      background: -webkit-linear-gradient(45deg, rgb(235, 59, 156), rgb(255, 142, 67));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border-image: -webkit-linear-gradient(45deg, rgb(235, 59, 156), rgb(255, 142, 67));
+        border-image-slice: 1;
   }
