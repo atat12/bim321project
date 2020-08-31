@@ -81,12 +81,11 @@ p{
 .row {
     display: flex;
     margin-top: 1rem;
-    background-color: linen;
+    background-color: rgb(253, 253, 253);
   }
   
   
 .column {
     flex: 50%;
     align-self: center;
-    
   }
