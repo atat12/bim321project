@@ -16,12 +16,16 @@ main{
 }
 
 a{
- color: black;
+ color: gray;
  text-decoration: none;
 }
 
 a:hover{
-    color: gray;
+    color: rgb(255, 131, 168);
+   }
+
+.active{
+    color: black;
    }
 
 footer{
@@ -34,4 +38,8 @@ footer{
     min-width: 650px;
     width: 80%;
     max-width: 1000px;
+}
+
+.logo{
+    float: left;
 }
