@@ -77,3 +77,16 @@ p{
 .pink h1, h2, p{
     color: white;
 }
+
+.row {
+    display: flex;
+    margin-top: 1rem;
+    background-color: linen;
+  }
+  
+  
+.column {
+    flex: 50%;
+    align-self: center;
+    
+  }
