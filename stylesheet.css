@@ -45,6 +45,7 @@ a:hover{
    }
 
 footer{
+    margin-top: 1rem;
     text-align: center;
     font-size: 0.6rem;
 }
@@ -120,11 +121,12 @@ p{
     margin-top: -10rem;  
     text-align: right;
     margin-right: 2rem;
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
 
   .lefty{
     padding-top: 4rem;
     padding-bottom: 4rem;
-    background-color: sienna;
+    background-color: rgb(15, 15, 15);
   }
+  
