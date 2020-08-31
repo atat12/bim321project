@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
 header nav ul li {
 display: inline;
 font-weight: bold;
@@ -11,8 +13,12 @@ nav ul{
     float: right;
 }
 
-main{
-    clear: right;
+.pink{
+    background-color: coral;
+    text-align: center;
+    padding: 3rem;
+    display: block;
+    margin-top: -1rem;
 }
 
 a{
@@ -38,8 +44,13 @@ footer{
     min-width: 650px;
     width: 80%;
     max-width: 1000px;
+    font-family: 'Krona One', sans-serif;
+    
 }
 
 .logo{
-    float: left;
+    padding-top: 1rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+    display: inline-block;
 }
