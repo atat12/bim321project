@@ -5,4 +5,6 @@ images  in "images" directory
 
 Naming convention:
 * selection:
-  Home age - index.html
+  Home page - index.html
+  Past Works - portfolio.html
+  About Me/Contact - contact.html
