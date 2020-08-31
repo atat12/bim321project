@@ -122,3 +122,9 @@ p{
     margin-right: 2rem;
     font-size: 1.2em;
   }
+
+  .lefty{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: sienna;
+  }
