@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600&display=swap');
 
 header nav ul li {
 display: inline;
-font-weight: bold;
 margin: 0;
 padding-left: 2rem;
 font-style: normal;
+font-family: 'Krona One', sans-serif;
+font-size: 0.8rem;
 }
 
 nav ul{
@@ -14,9 +16,11 @@ nav ul{
 }
 
 .pink{
-    background-color: coral;
+    background: rgb(255,129,107);
+    background: linear-gradient(130deg, rgba(255,129,107,1) 0%, rgba(255,165,165,1) 64%, rgba(255,192,247,1) 100%);
     text-align: center;
-    padding: 3rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
     display: block;
     margin-top: -1rem;
 }
@@ -44,8 +48,7 @@ footer{
     min-width: 650px;
     width: 80%;
     max-width: 1000px;
-    font-family: 'Krona One', sans-serif;
-    
+    font-family: Helvetica, sans-serif;
 }
 
 .logo{
@@ -53,4 +56,24 @@ footer{
     font-size: 1.7rem;
     font-weight: bold;
     display: inline-block;
+    font-family: 'Krona One', sans-serif;
+}
+
+h2{
+    font-family: 'Mukta', sans-serif;
+    font-style: italic;
+    margin: 0px;
+}
+
+h1{
+    font-family: 'Krona One', sans-serif;
+    margin: 0px;
+}
+
+p{
+    margin: 0px;
+}
+
+.pink h1, h2, p{
+    color: white;
 }
