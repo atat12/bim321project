@@ -101,6 +101,12 @@ p{
     padding-left: 4px;
 }
   
+.green{
+    background: rgb(53,255,198);
+    background: linear-gradient(130deg, rgba(53,255,198,1) 0%, rgba(228,255,135,1) 71%, rgba(253,255,183,1) 100%);
+    padding: 3px;
+}
+
 .column {
     flex: 50%;
     align-self: center;
@@ -171,4 +177,41 @@ p{
     .masonry {
       column-count: 1;
     }
+  }
+
+
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: white;
+    color: #4CAF50;
+    padding: 12px 30px;
+    border: 2px solid;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: 'Alata', sans-serif;
+    font-size: 1rem;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  form{
+    padding: 2rem;
+    text-align: left;   
+    background-color: white; 
+    color: black;
   }
