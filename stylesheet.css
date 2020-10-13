@@ -209,7 +209,7 @@ p{
     color: white;
   }
 
-  input[type=textarea] {
+  #message {
     height: 200px;
   }
 
