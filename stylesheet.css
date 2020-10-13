@@ -209,6 +209,10 @@ p{
     color: white;
   }
 
+  input[type=textarea] {
+    height: 200px;
+  }
+
   form{
     padding: 2rem;
     text-align: left;   
