@@ -5,7 +5,6 @@
 header nav ul li {
 display: inline;
 margin: 0;
-padding-left: 2rem;
 font-style: normal;
 font-family: 'Krona One', sans-serif;
 font-size: 0.8rem;
@@ -52,9 +51,7 @@ footer{
 
 .container {
     margin: auto;
-    min-width: 650px;
     width: 80%;
-    max-width: 1000px;
     font-family: 'Alata', sans-serif;
     color: black;
 }
@@ -92,23 +89,20 @@ p{
     display: flex;
     margin-top: 1rem;
     background-color: rgb(253, 253, 253);
+    flex-wrap: wrap;
   }
   
  .yellow{
     background: rgb(255,202,53);
     background: linear-gradient(130deg, rgba(255,202,53,1) 0%, rgba(255,209,135,1) 71%, rgba(253,255,183,1) 100%);    
-    padding-top: 4px;
-    padding-left: 4px;
 }
   
 .green{
     background: rgb(52,222,174);
     background: linear-gradient(130deg, rgba(52,222,174,1) 0%, rgba(228,255,135,1) 81%, rgba(253,255,183,1) 100%);
-    padding: 3px;
 }
 
 .column {
-    flex: 50%;
     align-self: center;
     text-align: center;
   }
@@ -159,46 +153,161 @@ p{
     width: 100%;
   }
 
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 2601px) {
+    .masonry {
+      column-count: 4;
+    }
+
+    header nav ul li {
+      padding-left: 2rem;
+      }
+
+      .column {
+        flex: 50%;
+      }
+
+      .yellow{
+        padding-top: 4px;
+        padding-left: 4px;
+      }
+
+      html{
+        font-size: 50px;
+      }
+  }
+
+  @media only screen and (min-width: 1501px) and (max-width: 2600px) {
+    .masonry {
+      column-count: 4;
+    }
+
+    header nav ul li {
+      padding-left: 2rem;
+      }
+
+      .column {
+        flex: 50%;
+      }
+
+      .yellow{
+        padding-top: 4px;
+        padding-left: 4px;
+      }
+
+      html{
+        font-size: 30px;
+      }
+  }
+
+  @media only screen and (min-width: 1024px) and (max-width: 1500px) {
     .masonry {
       column-count: 3;
     }
+   
+    header nav ul li {
+      padding-left: 2rem;
+      }
+
+      .column {
+        flex: 50%;
+      }
+
+      .yellow{
+        padding-top: 4px;
+        padding-left: 4px;
+      }
+
   }
   
   /* Masonry on medium-sized screens */
-  @media only screen and (max-width: 1023px) and (min-width: 768px) {
+  @media only screen and (max-width: 1023px) and (min-width: 800px) {
     .masonry {
       column-count: 2;
     }
+
+    header nav ul li {
+      padding-left: 2rem;
+      }
+
+      .column {
+        flex: 50%;
+        align-self: center;
+        text-align: center;
+      }
+
+      .yellow{
+        padding-top: 4px;
+        padding-left: 4px;
+      }
   }
   
   /* Masonry on small screens */
-  @media only screen and (max-width: 767px) and (min-width: 540px) {
+  @media only screen and (min-width: 450px) and (max-width: 799px) {
     .masonry {
       column-count: 1;
     }
+
+    header nav ul li {
+      padding-left: 1rem;
+      }
+
+      .column {
+        flex: 100%;
+        padding-bottom: 4rem;
+      }  
+      
+      .contact{
+        padding-top: 4rem;
+      }
+
+      .nopad{
+        padding:0px;
+      }
   }
 
+  @media only screen and (max-width: 449px) {
+    .masonry {
+      column-count: 1;
+    }
+
+    header nav ul li {
+      padding-left: 0;
+      }
+
+      .column {
+        flex: 100%;
+        padding-bottom: 4rem;
+      }  
+      
+      .contact{
+        padding-top: 4rem;
+      }
+
+      .nopad{
+        padding:0px;
+      }
+  }
 
   input[type=text], select, textarea {
     width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
+    padding: 1rem; /* Some padding */ 
     border: 1px solid #ccc; /* Gray border */
     border-radius: 4px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    margin-top: 0.5rem; /* Add a top margin */
+    margin-bottom: 1rem; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    font-size: 1rem;
   }
   
   /* Style the submit button with a specific background color etc */
   input[type=submit] {
     background-color: white;
     color: #4CAF50;
-    padding: 12px 30px;
+    padding: 1rem 2rem;
     border: 2px solid;
     cursor: pointer;
-    border-radius: 20px;
+    border-radius: 1rem;
     font-weight: bold;
     font-family: 'Alata', sans-serif;
     font-size: 1rem;
@@ -210,12 +319,13 @@ p{
   }
 
   #message {
-    height: 200px;
+    height: 7rem;
   }
 
   form{
-    padding: 2rem;
+    padding: 1.5rem;
     text-align: left;   
     background-color: white; 
     color: black;
+    margin: 4px;
   }
